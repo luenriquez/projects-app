@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <h4  className="text-gray lg:px-10 p-3">LOGO</h4>
+        {children}</body>
     </html>
   );
 }
